@@ -311,10 +311,6 @@ footer ul li a:hover {
     padding: 30px;
 }
 
-.row-top {
-    width: 20% !important;
-}
-
 .trainer {
     background-image: url('../assets/images/bg1.jpeg');
     display: flex;
@@ -391,4 +387,10 @@ footer ul li a:hover {
 }
 .fixed-footer div:hover {
     color: orangered;
+}
+
+@media only screen and (max-width: 768px) {
+    .home-course {
+        bottom: 0;
+    }
 }

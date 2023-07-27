@@ -18,12 +18,12 @@
     <a class="navbar-brand" href="https://www.achieversit.com/">
       <img src="../assets/images/logo-white.png" />
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse mt-3" id="navbarNavDropdown">
-      <ul class="navbar-nav ms-auto mt-2">
+    <div class="collapse navbar-collapse mt-md-3 mt-0" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-md-auto ms-0 mt-md-2 mt-0">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -68,36 +68,36 @@
     <div class="carousel-inner home-carousel">
       <div class="carousel-item active">
         <img src="../assets/images/angular_training.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h1>Angular Development Course</h1>
+        <div class="carousel-caption">
+          <h1 class="d-none d-md-block">Angular Development Course</h1>
           <button class="btn btn-danger">Explore Course</button>
         </div>
       </div>
       <div class="carousel-item">
         <img src="../assets/images/aws_training.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h1>AWS Training Course</h1>
+        <div class="carousel-caption">
+          <h1 class="d-none d-md-block">AWS Training Course</h1>
           <button class="btn btn-danger">Explore Course</button>
         </div>
       </div>
       <div class="carousel-item">
         <img src="../assets/images/full_stack_development.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h1>Fullstack Development Course</h1>
+        <div class="carousel-caption">
+          <h1 class="d-none d-md-block">Fullstack Development Course</h1>
           <button class="btn btn-danger">Explore Course</button>
         </div>
       </div>
       <div class="carousel-item">
         <img src="../assets/images/react_training.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h1>React Development Course</h1>
+        <div class="carousel-caption">
+          <h1 class="d-none d-md-block">React Development Course</h1>
           <button class="btn btn-danger">Explore Course</button>
         </div>
       </div>
       <div class="carousel-item">
         <img src="../assets/images/web_development.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h1>Web Development Course</h1>
+        <div class="carousel-caption">
+          <h1 class="d-none d-md-block">Web Development Course</h1>
           <button class="btn btn-danger">Explore Course</button>
         </div>
       </div>
@@ -117,8 +117,8 @@
   <!-- Main page -->
   <div class="container home">
     <!-- course details -->
-    <div class="row home-course">
-      <div class="col-4">
+    <div class="row home-course d-flex flex-md-row flex-column">
+      <div class="col-12 col-md-4 mb-1">
         <div class="course-card card-1 ">
           <p class="text-grey">BECOME A <br><span class="text-dark">UI DEVELOPER</span></p>
           <p>KNOW MORE
@@ -126,7 +126,7 @@
           </p>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-12 col-md-4 mb-1">
         <div class="course-card card-2">
           <p class="text-grey">BECOME A <br><span class="text-dark">ANGULAR DEVELOPER</span></p>
           <p>KNOW MORE
@@ -134,7 +134,7 @@
           </p>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-12 col-md-4 mb-1">
         <div class="course-card card-3">
           <p class="text-grey">BECOME A <br><span class="text-dark">REACTJS DEVELOPER</span></p>
           <p>KNOW MORE
@@ -147,7 +147,7 @@
     <!-- Trending Course card starts here -->
     <h3 class="col-12 trending"><strong>Trending Courses</strong></h3>
     <div class="row text-white">
-      <div class="col-3 mb-5">
+      <div class="col-12 col-md-3 mb-5">
         <div class="card card-box-shadow">
           <div class="row m-0 bg-linear-pink">
             <div class="col-3 p-15-20">
@@ -192,7 +192,7 @@
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-md-3 mb-5">
         <div class="card card-box-shadow">
           <div class="row m-0 bg-linear-orange">
             <div class="col-3 p-15-20">
@@ -232,7 +232,7 @@
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-md-3 mb-5">
         <div class="card card-box-shadow">
           <div class="row m-0 bg-linear-purple">
             <div class="col-3 p-15-20">
@@ -272,7 +272,7 @@
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-md-3 mb-5">
         <div class="card card-box-shadow">
           <div class="row m-0 bg-linear-blue">
             <div class="col-3 p-15-20">
@@ -310,7 +310,7 @@
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-md-3 mb-5">
         <div class="card">
           <div class="row m-0 bg-linear-b">
             <div class="col-3 p-15-20">
@@ -347,7 +347,7 @@
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-md-3 mb-5">
         <div class="card">
           <div class="row m-0 bg-linear-b">
             <div class="col-3 p-15-20">
@@ -387,7 +387,7 @@
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-md-3 mb-5">
         <div class="card">
           <div class="row m-0 bg-linear-pink">
             <div class="col-3 p-15-20">
@@ -435,7 +435,7 @@
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-md-3 mb-5">
         <div class="card">
           <div class="row m-0 bg-linear-orange">
             <div class="col-3 p-15-20">
@@ -481,7 +481,7 @@
     <!-- Recent Addition starts here -->
     <h3 class="col-12 recent-add"><strong>RECENT ADDITIONS</strong></h3>
     <div class="row text-white">
-      <div class="col-3 mb-5">
+      <div class="col-12 col-md-3 mb-5">
         <div class="card card-box-shadow">
           <div class="row m-0 bg-linear-blue">
             <div class="col-3 p-15-20">
@@ -518,7 +518,7 @@
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-md-3 mb-5">
         <div class="card card-box-shadow">
           <div class="row m-0 bg-linear-b">
             <div class="col-3 p-15-20">
@@ -556,7 +556,7 @@
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-md-3 mb-5">
         <div class="card card-box-shadow">
           <div class="row m-0 bg-linear-b">
             <div class="col-3 p-15-20">
@@ -599,7 +599,7 @@
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-md-3 mb-5">
         <div class="card card-box-shadow">
           <div class="row m-0 bg-linear-orange">
             <div class="col-3 p-15-20">
@@ -640,7 +640,7 @@
     <!-- Discovery of Top categories -->
     <h3 class="col-12 recent-add p-20"><strong>Discover Top Categories</strong></h3>
     <div class="row p-25-125">
-      <div class="col-2 mb-3">
+      <div class="col-6 col-md-2 mb-3">
         <div class="card text-center card-box-shadow discovery">
           <span class="card-body flex-grow-0">
             <svg class="svg-wid fa-dev f-50 text-op text-orangered" aria-hidden="true" focusable="false"
@@ -654,7 +654,7 @@
           <p class="card-footer bg-white border-0 p-0 f-12">DevOps</p>
         </div>
       </div>
-      <div class="col-2">
+      <div class="col-6 col-md-2 mb-3">
         <div class="card text-center card-box-shadow discovery">
           <span class="card-body flex-grow-0">
             <svg class="svg-wid fa-laptop-code text-op text-indigo f-50" aria-hidden="true" focusable="false"
@@ -668,7 +668,7 @@
           <p class="card-footer bg-white border-0 p-0 f-12">Front-End</p>
         </div>
       </div>
-      <div class="col-2 mb-3">
+      <div class="col-6 col-md-2 mb-3">
         <div class="card text-center card-box-shadow discovery">
           <span class="card-body flex-grow-0">
             <svg class="svg-wid fa-mobile-alt text-op fa-w-10 f-50 text-cyan" aria-hidden="true" focusable="false"
@@ -682,7 +682,7 @@
           <p class="card-footer bg-white border-0 p-0 f-12">Mobile App Dev</p>
         </div>
       </div>
-      <div class="col-2 mb-3">
+      <div class="col-6 col-md-2 mb-3">
         <div class="card text-center card-box-shadow discovery">
           <span class="card-body flex-grow-0">
             <svg class="svg-wid text-op fa-funnel-dollar fa-w-20 f-50 text-blue" aria-hidden="true" focusable="false"
@@ -696,7 +696,7 @@
           <p class="card-footer bg-white border-0 p-0 f-12">Digital Marketting</p>
         </div>
       </div>
-      <div class="col-2 mb-3">
+      <div class="col-6 col-md-2 mb-3">
         <div class="card text-center card-box-shadow discovery">
           <span class="card-body flex-grow-0">
             <svg class="svg-wid text-op fa-file-code fa-w-12 font-50 text-orange" aria-hidden="true" focusable="false"
@@ -710,7 +710,7 @@
           <p class="card-footer bg-white border-0 p-0 f-12">Program & Frame<br>Works</p>
         </div>
       </div>
-      <div class="col-2 mb-3">
+      <div class="col-6 col-md-2 mb-3">
         <div class="card text-center card-box-shadow discovery">
           <span class="card-body flex-grow-0">
             <svg class="svg-wid fa-database fa-w-14 text-op font-50 text-light-blue" aria-hidden="true"
@@ -724,7 +724,7 @@
           <p class="card-footer bg-white border-0 p-0 f-12">Datatypes</p>
         </div>
       </div>
-      <div class="col-2 mb-3">
+      <div class="col-6 col-md-2 mb-3">
         <div class="card text-center card-box-shadow discovery">
           <span class="card-body flex-grow-0">
             <svg class="svg-wid fa-chalkboard-teacher text-op fa-w-20 font-50 text-light-green" aria-hidden="true"
@@ -738,7 +738,7 @@
           <p class="card-footer bg-white border-0 p-0 f-12">Software Testing</p>
         </div>
       </div>
-      <div class="col-2 mb-3">
+      <div class="col-6 col-md-2 mb-3">
         <div class="card text-center card-box-shadow discovery">
           <span class="card-body flex-grow-0">
             <svg class="svg-wid fa-jsfiddle text-op fa-w-18 font-50 text-red" aria-hidden="true" focusable="false"
@@ -752,7 +752,7 @@
           <p class="card-footer bg-white border-0 p-0 f-12">Cloud Computing</p>
         </div>
       </div>
-      <div class="col-2 mb-3">
+      <div class="col-6 col-md-2 mb-3">
         <div class="card text-center card-box-shadow discovery">
           <span class="card-body flex-grow-0">
             <svg class="svg-wid fa-mask fa-w-20 text-op font-50 text-light-blue" aria-hidden="true" focusable="false"
@@ -766,7 +766,7 @@
           <p class="card-footer bg-white border-0 p-0 f-12">Cyber Security</p>
         </div>
       </div>
-      <div class="col-2 mb-3">
+      <div class="col-6 col-md-2 mb-3">
         <div class="card text-center card-box-shadow discovery">
           <span class="card-body flex-grow-0">
             <svg class="svg-wid fa-mobile-alt fa-w-10 text-op font-50 text-red" aria-hidden="true" focusable="false"
@@ -780,7 +780,7 @@
           <p class="card-footer bg-white border-0 p-0 f-12">Artificial Intelligence</p>
         </div>
       </div>
-      <div class="col-2 mb-3">
+      <div class="col-6 col-md-2 mb-3">
         <div class="card text-center card-box-shadow discovery">
           <span class="card-body flex-grow-0">
             <svg class="svg-wid fa-python text-op fa-w-14 font-50 text-light-green" aria-hidden="true" focusable="false"
@@ -794,7 +794,7 @@
           <p class="card-footer bg-white border-0 p-0 f-12">Python</p>
         </div>
       </div>
-      <div class="col-2 mb-3">
+      <div class="col-6 col-md-2 mb-3">
         <div class="card text-center card-box-shadow discovery">
           <span class="card-body flex-grow-0">
             <svg class="svg-wid fa-codepen text-op fa-w-16 text-indigo font-50" aria-hidden="true" focusable="false"
@@ -1075,14 +1075,14 @@
     <!-- Achievers IT Edge -->
     <h3 class="col-12 recent-add p-20 mb-3"><strong>Achievers IT Edge</strong></h3>
     <div class="row justify-content-center align-items-center">
-      <div class="col-3 align-self-center">
+      <div class="col-md-3 col-12 align-self-center">
         <div class="check-i p-10 m-auto"><i class="fa-solid fa-check fa-icon"></i></div>
         <div class="text-center mt-3">
           <p>Real Time Doubt Resolution<br>
             With Live Instructors</p>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-md-3 col-12">
         <div class="check-i p-10 m-auto bg-white"><i class="fa-solid fa-infinity fa-icon" style="color: #c32c9b;"></i>
         </div>
         <div class="text-center mt-3">
@@ -1090,7 +1090,7 @@
             With Live Instructors</p>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-md-3 col-12">
         <div class="check-i p-10 m-auto bg-white">
           <h2 class="t-24-7">24/7</h2>
         </div>
@@ -1099,7 +1099,7 @@
             With Live Instructors</p>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-md-3 col-12">
         <div class="check-i p-10 m-auto bg-white">
           <i class="fa-solid fa-chart-line fa-icon" style="color: #bab536;"></i>
         </div>
@@ -1116,20 +1116,20 @@
     <h6 class="col-12 text-b text-center">More people train with AcheiversIT because of ourcommitment to quality,
       Placement Support, and Real-time Training.</h6>
     <div class="row justify-content-between mb-5">
-      <div class="col-3 row-top card-box-shadow text-center min-h p-30-20">
+      <div class="col-md-3 col-12 card-box-shadow text-center min-h p-30-20">
         <h2>135 +</h2>
         <h6>TRENDING COURSES</h6>
       </div>
-      <div class="col-3 row-top card-box-shadow text-center min-h p-30-20">
+      <div class="col-md-3 col-12 row-top card-box-shadow text-center min-h p-30-20">
         <h2>60 +</h2>
         <h6>IT Companies are tied-UP to hire our trained students</h6>
       </div>
-      <div class="col-3 row-top card-box-shadow text-center min-h p-30-20">
+      <div class="col-md-3 col-12 row-top card-box-shadow text-center min-h p-30-20">
         <h2>25 +</h2>
         <h6>Students attend Interviews every day through our Placement
           Cell</h6>
       </div>
-      <div class="col-3 row-top card-box-shadow text-center min-h p-30-20">
+      <div class="col-md-3 col-12 row-top card-box-shadow text-center min-h p-30-20">
         <h2>3 +</h2>
         <h6>Of our students Get Jobs every day in Bangalore and
           India</h6>
@@ -1140,62 +1140,62 @@
   <!-- Trainers starts here -->
   <h3 class="col-12 recent-add p-20 mb-3"><strong>Our Trainers From</strong></h3>
   <div class="row">
-    <div class="col-3 p-20">
+    <div class="col-md-3 col-6 p-20">
       <div class="trainer p-20 text-center card-box-shadow h-80">
         <img src="https://www.achieversit.com/assets/images/boostrap_development%20.png" alt="oracle">
       </div>
     </div>
-    <div class="col-3 p-20">
+    <div class="col-md-3 col-6 p-20">
       <div class="trainer p-20 text-center card-box-shadow h-80">
         <img src="https://www.achieversit.com/assets/images/ui_Development_training.png" alt="cognizant">
       </div>
     </div>
-    <div class="col-3 p-20">
+    <div class="col-md-3 col-6 p-20">
       <div class="trainer p-20 text-center card-box-shadow h-80">
         <img src="https://www.achieversit.com/assets/images/angualr_development_training.png" alt="hcl">
       </div>
     </div>
-    <div class="col-3 p-20">
+    <div class="col-md-3 col-6 p-20">
       <div class="trainer p-20 text-center card-box-shadow h-80">
         <img src="https://www.achieversit.com/assets/images/aws_development_training.png" alt="accenture">
       </div>
     </div>
-    <div class="col-3 p-20">
+    <div class="col-md-3 col-6 p-20">
       <div class="trainer p-20 text-center card-box-shadow h-80">
         <img src="https://www.achieversit.com/assets/images/php_development_training.png" style="width: 80%" alt="cognizant">
       </div>
     </div>
-    <div class="col-3 p-20">
+    <div class="col-md-3 col-6 p-20">
       <div class="trainer p-20 text-center card-box-shadow h-80">
         <img src="https://www.achieversit.com/assets/images/react_development_training.png" alt="ibm">
       </div>
     </div>
-    <div class="col-3 p-20">
+    <div class="col-md-3 col-6 p-20">
       <div class="trainer p-20 text-center card-box-shadow h-80">
         <img src="https://www.achieversit.com/assets/images/software_development_training.png" alt="amazon">
       </div>
     </div>
-    <div class="col-3 p-20">
+    <div class="col-md-3 col-6 p-20">
       <div class="trainer p-20 text-center card-box-shadow h-80">
         <img src="https://www.achieversit.com/assets/images/software_training_courses.png" alt="visa">
       </div>
     </div>
-    <div class="col-3 p-20">
+    <div class="col-md-3 col-6 p-20">
       <div class="trainer p-20 text-center card-box-shadow h-80">
         <img src="https://www.achieversit.com/assets/images/python_development_traning.png" style="width: 80%" alt="wipro">
       </div>
     </div>
-    <div class="col-3 p-20">
+    <div class="col-md-3 col-6 p-20">
       <div class="trainer p-20 text-center card-box-shadow h-80">
         <img src="https://www.achieversit.com/assets/images/web_development_training.png" alt="flipkart">
       </div>
     </div>
-    <div class="col-3 p-20">
+    <div class="col-md-3 col-6 p-20">
       <div class="trainer p-20 text-center card-box-shadow h-80">
         <img src="https://www.achieversit.com/assets/images/angularjs_training.png" alt="dell">
       </div>
     </div>
-    <div class="col-3 p-20">
+    <div class="col-md-3 col-6 p-20">
       <div class="trainer p-20 text-center card-box-shadow h-80">
         <img src="https://www.achieversit.com/assets/images/angular_training.png" alt="genpact" style="width: 80%">
       </div>
@@ -1211,7 +1211,7 @@
   <!-- Job opening starts here -->
   <h3 class="col-12 recent-add p-20 mb-3"><strong>Latest Job Openings</strong></h3>
   <div class="row">
-    <div class="col-6 job mb-5">
+    <div class="col-md-6 col-12 job mb-5">
       <div class="p-20 text-white">
       <h4><a class="text-white" href="#">Front-End Developer - Angular js, Node js</a></h4>
       <p>Location: Bangalore</p>
@@ -1220,7 +1220,7 @@
         <i class="fa-solid fa-circle-down align-self-end" style="color: #ffffff;"></i>
       </div>
     </div>
-    <div class="col-6 job mb-5">
+    <div class="col-md-6 col-12 job mb-5">
       <div class="p-20 text-white">
         <h4><a class="text-white" href="#">Senior Software Engineer - Java Fullstack Developer</a></h4>
         <p>Location: Bangalore</p>
@@ -1229,7 +1229,7 @@
           <i class="fa-solid fa-circle-down align-self-end" style="color: #ffffff;"></i>
         </div>
     </div>
-    <div class="col-6 job mb-5">
+    <div class="col-md-6 col-12 job mb-5">
       <div class="p-20 text-white">
         <h4><a class="text-white" href="#">UI Developer - AngularJs Frameworks</a></h4>
         <p>Location: Bangalore</p>
@@ -1238,7 +1238,7 @@
           <i class="fa-solid fa-circle-down align-self-end" style="color: #ffffff;"></i>
         </div>
     </div>
-    <div class="col-6 job mb-5">
+    <div class="col-md-6 col-12 job mb-5">
       <div class="p-20 text-white">
         <h4><a class="text-white" href="#">Python Developer (Fresher) - Requirement</a></h4>
         <p>Location: Bangalore</p>
@@ -1247,7 +1247,7 @@
           <i class="fa-solid fa-circle-down align-self-end" style="color: #ffffff;"></i>
         </div>
     </div>
-    <div class="col-6 job mb-5">
+    <div class="col-md-6 col-12 job mb-5">
       <div class="p-20 text-white">
         <h4><a class="text-white" href="#">UI/UX Designed or Developer</a></h4>
         <p>Location: Bangalore</p>
@@ -1256,7 +1256,7 @@
           <i class="fa-solid fa-circle-down align-self-end" style="color: #ffffff;"></i>
         </div>
     </div>
-    <div class="col-6 job mb-5">
+    <div class="col-md-6 col-12 job mb-5">
       <div class="p-20 text-white">
         <h4><a class="text-white" href="#">.NET Senior Developer - 5 Positions</a></h4>
         <p>Location: Bangalore</p>
@@ -1272,7 +1272,7 @@
     <h3 class="text-white p-10">Achivers IT for Business</h3>
     <h4 class="text-white p-10">No more dull edges in your company.Make your employees into masters....</h4>
     <h5 class="text-white p-10">Nurture talent with instructor-led courses on trending technologies</h5>
-    <a href="#" class="btn btn-light mt-3 w-25">BUSINESS CONTACT</a>
+    <a href="#" class="btn btn-light mt-3 w-md-25 w-50">BUSINESS CONTACT</a>
   </div>
   <!-- Business card end here -->
   <!-- Trainers details starts here -->
@@ -1425,13 +1425,13 @@
 </div>
   <footer class="mt-5 bg-dark footer-pad">
     <div class="row">
-      <div class="col-3">
+      <div class="col-md-3 col-12">
         <img src="../assets/images/logo-white.png" />
         <p class="text-grey justify mt-2">AchieversIT - Provides a wide group of opportunities
           for freshers and Experienced candidate who can develop their skills and build their career
           opportunities across multiple Companies.</p>
       </div>
-      <div class="col-3 text-white p-10">
+      <div class="col-md-3 col-12 text-white p-10">
         <h5 class="text-grey">COMPANY</h5>
         <ul>
           <li>
@@ -1444,7 +1444,7 @@
           <li><a href="#">Contact US</a></li>
         </ul>
       </div>
-      <div class="col-3 p-10">
+      <div class="col-md-3 col-12 p-10">
         <h5 class="text-grey">TRENDING COURSES</h5>
         <ul>
           <li>
@@ -1459,7 +1459,7 @@
 
         </ul>
       </div>
-      <div class="col-3 p-10">
+      <div class="col-md-3 col-12 p-10">
         <h5 class="text-grey">CONTACT INFO</h5>
         <ul>
           <li class="d-flex">
@@ -1506,10 +1506,10 @@
       </ul>
     </div>
   </footer>
-  <div class="row ms-1 fixed-footer bg-dark text-white justify-content-between">
-    <div class="col-4">Call us on : +91 8431-040-457 / 8151000080</div>
-    <div class="col-4">Request A Call Back</div>
-    <div class="col-4">Chat With Us!</div>
+  <div class="row fixed-footer bg-dark text-white justify-content-between">
+    <div class="col-md-4">Call us on : +91 8431-040-457 / 8151000080</div>
+    <div class="col-md-4">Request A Call Back</div>
+    <div class="col-md-4">Chat With Us!</div>
   </div>
 </body>
 
