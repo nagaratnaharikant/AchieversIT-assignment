@@ -84,9 +84,14 @@ footer ul li a:hover {
 .home-course {
     position: relative;
     bottom: 30px;
-    transition: all 0.5s ease 0s;
+    transition: all 1s ease 0s;
 }
-
+.discovery:hover {
+    transform: scale(1.2);
+}
+.trainer:hover {
+    transform: scale(1.2);
+}
 .trending {
     padding: 20px 0;
 }
@@ -108,6 +113,10 @@ footer ul li a:hover {
     width: 28px;
 }
 
+.edge:hover {
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.15);
+}
+
 .bg-linear-pink {
     background: linear-gradient(to right, #fc6767, #ec008c);
 }
@@ -127,6 +136,19 @@ footer ul li a:hover {
 .bg-linear-b {
     background: linear-gradient(to left, #1cb5e0, #000046);
 }
+.card-blue:hover {
+    background: linear-gradient(to right, #92fe9d, #00c9ff);
+    color: white;
+}
+.card-b:hover {
+    background: linear-gradient(to left, #1cb5e0, #27276a);
+}
+.card-b:hover h2,  .card-b:hover h6{
+    color: white !important;
+}
+.card-blue:hover h2,  .card-blue:hover h6{
+    color: white !important;
+}
 
 .p-15-20 {
     padding: 15px 20px;
@@ -139,7 +161,6 @@ footer ul li a:hover {
 .card-box-shadow {
     background: white;
     box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.15);
-
 }
 
 .p-20 {
@@ -178,6 +199,7 @@ footer ul li a:hover {
 
 .discovery {
     height: 132px !important;
+    transition: all 1s ease;
 }
 
 .f-12 {
@@ -317,6 +339,7 @@ footer ul li a:hover {
     justify-content: center;
     align-items: center;
     min-height: 140px;
+    transition: all 1s ease;
 }
 
 .trainer img {
